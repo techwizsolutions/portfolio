@@ -39,17 +39,17 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="text-sm text-foreground/60">Email</div>
-                  <div className="font-medium">stephen@example.com</div>
+                  <div className="font-medium">stevenmutili@gmail.com</div>
                 </div>
               </a>
 
-              <a href="https://wa.me/1234567890" target="_blank" rel="noreferrer" className="flex items-center gap-4 glass p-4 rounded-xl border border-card-border hover:border-green-500/50 transition-colors group">
+              <a href="https://wa.link/c0goxn" target="_blank" rel="noreferrer" className="flex items-center gap-4 glass p-4 rounded-xl border border-card-border hover:border-green-500/50 transition-colors group">
                 <div className="p-3 bg-green-500/10 rounded-lg text-green-500 group-hover:scale-110 transition-transform">
                   <MessageSquare size={24} />
                 </div>
                 <div>
                   <div className="text-sm text-foreground/60">WhatsApp</div>
-                  <div className="font-medium">+123 456 7890</div>
+                  <div className="font-medium">+254 716 751 847</div>
                 </div>
               </a>
               
@@ -59,7 +59,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <div className="text-sm text-foreground/60">Phone</div>
-                  <div className="font-medium">+123 456 7890</div>
+                  <div className="font-medium">+254 716 751 847</div>
                 </div>
               </div>
             </div>
