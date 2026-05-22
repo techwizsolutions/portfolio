@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Briefcase, Calendar, MapPin } from "lucide-react";
+import { Certificate } from "node:crypto";
 
 const experienceData = [
   {
@@ -37,7 +38,7 @@ const educationData = [
     period: "July 2018 to February 2022",
   },
   {
-    certificate: "Fiber Optics Technology (FOT) Training",
+    Certificate: "Fiber Optics Technology (FOT) Training",
     institution: "VISCAR INDUSTRIAL CAPACITY LIMITED",
     period: "20th may to 23rd may, 2026"
   }
