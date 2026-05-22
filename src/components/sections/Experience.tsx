@@ -1,22 +1,32 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Briefcase, Calendar } from "lucide-react";
+import { Briefcase, Calendar, MapPin } from "lucide-react";
 
 const experienceData = [
   {
-    role: "Field Technician",
-    company: "iNet Africa",
-    period: "2023 - Present",
+    role: "Infrastructure Fiber Technician",
+    company: "Syokinet Solutions Ltd · Contract",
+    period: "Sep 2025 - Present",
+    location: "Nairobi County, Kenya · On-site",
     description:
-      "Responsible for the installation, troubleshooting, and maintenance of fiber optic networks. Ensuring high availability and minimal downtime for enterprise and residential clients.",
+      "Responsible for the deployment and maintenance of fiber optic infrastructure in Nairobi. Handles end-to-end fiber installations, splicing, testing, and troubleshooting to ensure reliable connectivity for enterprise and residential clients.",
   },
   {
-    role: "IT Intern",
-    company: "Kenafric Industries",
-    period: "2022 - 2023",
+    role: "Network Field Technician",
+    company: "iNet Africa · Contract",
+    period: "Jul 2022 - Jul 2025",
+    location: "Malindi, Kilifi County, Kenya · On-site",
     description:
-      "Assisted in system administration, hardware maintenance, and user support. Gained hands-on experience in managing corporate IT infrastructure and resolving technical issues.",
+      "Conducted network troubleshooting and maintenance for fiber and wireless internet services. Installed and configured networking equipment such as routers, switches, and access points. Managed router configuration and server administration to ensure optimal network performance.",
+  },
+  {
+    role: "IT Support Intern",
+    company: "Kenafric Industries Ltd · Internship",
+    period: "Sep 2021 - Dec 2021",
+    location: "Babadogo, Nairobi · On-site",
+    description:
+      "Responsible for troubleshooting technical issues, assisting with software updates, network support, and hardware setup. Provided helpdesk support, documented IT requests, and helped maintain system security across the corporate environment.",
   },
 ];
 
@@ -69,7 +79,10 @@ export default function Experience() {
                         <Calendar size={14} /> {item.period}
                       </span>
                     </div>
-                    <div className="text-foreground/80 font-medium mb-3">{item.company}</div>
+                    <div className="text-foreground/80 font-medium mb-1">{item.company}</div>
+                    <div className="text-foreground/50 text-xs flex items-center gap-1 mb-3">
+                      <MapPin size={12} /> {item.location}
+                    </div>
                     <p className="text-foreground/60 text-sm leading-relaxed">{item.description}</p>
                   </div>
                 </motion.div>
