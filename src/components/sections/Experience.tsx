@@ -38,7 +38,7 @@ const educationData = [
     period: "July 2018 to February 2022",
   },
   {
-    certificate: "Fiber Optics Technology- FOT Training",
+    d "Fiber Optics Technology- FOT Training",
     institution: "VISCAR INDUSTRIAL CAPACITY LIMITED",
     period: "20th may to 23rd may, 2026" ,
   }
